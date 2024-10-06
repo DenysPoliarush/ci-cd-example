@@ -1,0 +1,21 @@
+{
+  "name": "typed-local-storage-service",
+  "version": "1.0.0",
+  "description": "A TypeScript-based local storage service for managing data in the browser's local storage.",
+  "keywords": [
+    "typed local storage",
+    "local storage",
+    "typed",
+    "storage"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Denys Poliarush",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+}
