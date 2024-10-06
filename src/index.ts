@@ -13,12 +13,12 @@ class LocalStorageService<T> {
     return this.localStorage.getItem(key) !== null
   }
 
-  getItem<K extends keyof T & string> (key: K): T[keyof T] | null {
+  getItem<K extends keyof T & string> (key: K): T[K] | null {
     const item = this.localStorage.getItem(key)
     return item !== null ? JSON.parse(item) : null
   }
 
-  setItem<K extends keyof T & string> (key: K, data: T[keyof T]): void {
+  setItem<K extends keyof T & string> (key: K, data: T[K]): void {
     this.localStorage.setItem(key.toString(), JSON.stringify(data))
   }
 
