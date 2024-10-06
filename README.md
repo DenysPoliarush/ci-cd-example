@@ -7,7 +7,7 @@
 Using `npm`:
 
 ```shell
-npm install local-storage-service --save
+npm install typed-local-storage-service --save
 ```
 ## Usage
 ```shell
