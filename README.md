@@ -1,4 +1,4 @@
-# typed-local-storage-service
+# Typed local-storage service
 
 > A TypeScript-based local storage service for managing data in the browser's local storage.
 
